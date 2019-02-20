@@ -1,0 +1,52 @@
+.detailContainer{
+    display: flex;
+    position: relative;
+    background: rgb(27,27,27);
+    width: 400px;
+    position: absolute;
+    top: 34px;
+    left: 930px;
+    color:#fff;
+   
+}
+.Mname{
+    flex: 1;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 30px;
+}
+.Mname div{
+    font-size: 15px;
+    /* margin-top: 14px; */
+    height: 20px;
+    margin-top: 10px;
+}
+.state{
+    flex: 1
+}
+.state input{
+    width: 100px;
+    height: 21px;
+    margin-top: 9px;
+    background: rgb(47,47,47);
+    color: #fff;
+    border: 1px solid rgb(65,65,65);
+}
+.state button{
+    width: 103px;
+    margin-top: 14px;
+    background-image: linear-gradient( rgb(150,152,152),rgb(120, 121, 123));
+    color: #fff;
+    border: none;
+}
+.detailMsg{
+    position: absolute;
+    width: 240px;
+    height: 25px;
+    background-image: linear-gradient( rgb(150,152,152),rgb(120, 121, 123));
+    line-height: 25px;
+    text-align: center;
+    bottom:1%;
+    right: 19%;
+    font-size: 14px;
+}

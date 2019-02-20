@@ -1,0 +1,60 @@
+.controlMT{
+    width: 250px;
+    display: inline-block;
+   
+    padding: 10px 20px;
+    
+    box-sizing: content-box;
+}
+.header input{
+    width: 141px;
+    height: 21px;
+    border-radius: 10px;
+    outline: none;
+}
+.header{
+    position: relative
+}
+.header span{
+    width: 67px;
+    height: 26px;
+    background: skyblue;
+    line-height: 26px;
+    font-size: 13px;
+    text-align: center;
+    display: inline-block;
+    /* float: right; */
+    margin-left: 23px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container span{
+    display: inherit;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.title{
+    font-size: 12px;
+}
+.search{
+    width: 14px;
+    position: absolute;
+    left: 117px;
+    top: 6px;
+}
+.title span{
+    margin-left: 0
+}
+.Lbtn{
+    text-align: right
+}
+.color{
+    background: pink
+}
+.title div{
+    margin-left: 30px
+}
+.none{
+    display: none
+}

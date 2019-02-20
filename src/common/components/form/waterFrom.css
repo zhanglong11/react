@@ -1,0 +1,48 @@
+.waterFrom {
+    left: 44%;
+    position: absolute;
+    top: 10%;
+   
+    padding: 10px
+}
+
+.table {
+    border: 1px solid
+}
+
+/* .table{border-top:1px solid #000;border-left:1px solid #000;text-align:center} */
+.table td {
+    border: 1px solid
+}
+
+.table th {
+    border: 1px solid;
+    font-size: 14px
+}
+.qushi{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background: skyblue;
+    font-size: 14px;
+    display: inline-block;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.rc-pagination-prev, .rc-pagination-next{
+    border:none !important;
+    font-size: 14px !important;
+    
+}
+.page{
+    width: 60%;
+    margin: 0 auto;
+}
+.rc-pagination{
+    margin-top: 10px !important;
+}

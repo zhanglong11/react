@@ -1,0 +1,59 @@
+.Messagebox {
+    position: absolute;
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #999999;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.Messagebox-Title {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 36px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background: #cccccc;
+}
+
+.Messagebox-Title.dragable {
+    cursor: move;
+}
+
+.Messagebox-Title-Text {
+    font-size: 18px;
+    color: #666666;
+}
+
+.Messagebox-Content {
+    box-sizing: border-box;
+    padding: 6px;
+    width: 100%;
+    flex: 0 1 100%;
+    overflow-y: auto;
+}
+
+.Messagebox-Title-BtnContainer {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.Messagebox-Title-Btn {
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #e5e5e5;
+}
+
+.Messagebox-Title-Btn:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.Messagebox-Title-Btn.minimize {
+    margin-right: 14px;
+}

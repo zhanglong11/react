@@ -1,0 +1,26 @@
+.person{
+    position: absolute;
+    left: 17%;
+  
+    width: 230px;
+    padding: 10px;
+}
+.person p{
+    display: flex
+}
+.person p span:first-of-type{
+    flex :2
+}
+.person p span{
+    flex :1;
+    border: 1px solid black;
+    height: 30px;
+    margin-bottom: -15px;
+    margin-left: -1px;
+    text-align: center;
+    line-height: 30px;
+}
+.person p span:last-of-type{
+    color:skyblue;
+    cursor: pointer;
+}

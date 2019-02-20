@@ -1,0 +1,37 @@
+.personForm{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    width: 988px;
+  
+    padding: 10px;
+}
+.personLeft{
+    border: 2px solid;
+    margin-right: 50px;
+    padding: 20px;
+    flex: 1;
+   
+}
+.personRight{
+    flex:4
+}
+.Formcontainer{
+    margin-left: 15px;
+}
+.Formcontainer div{
+    margin-left: 24px;
+    margin-top: -11px;
+    font-size: 12px;
+}
+.personForm .table td{
+    height: 50px;
+}
+.personLeft .header{
+    top: 33px;
+    left: 16px;
+}
+.SideBar{
+    display: none;
+}

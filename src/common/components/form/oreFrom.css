@@ -1,0 +1,32 @@
+.oreFrom{
+    left: 44%;
+    position: absolute;
+   
+   
+    padding: 10px
+}
+.ant-calendar-picker{
+    margin-bottom: 10px !important;
+}
+.check{
+    width: 60px;
+    height: 32px;
+    line-height: 32px;
+    background: skyblue;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.oreFrom .page{
+    width: 60%;
+}
+.gasFrom{
+    left: 22%;
+    position: absolute;
+  
+  
+    padding: 10px
+}

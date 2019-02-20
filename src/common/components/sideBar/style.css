@@ -1,0 +1,64 @@
+.SideBar {
+    position: absolute;
+    z-index: 3;
+    width: 80px;
+    padding: 10px 6px;
+    background: #e5e5e5;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px #666666;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;    
+}
+
+.SideBar-Block {
+    box-sizing: border-box;
+    padding: 6px 0;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+}
+
+.SideBar-Block:hover {
+    border-color: #cccccc;
+    box-shadow: 0 0 1px #cccccc;
+    cursor: pointer;
+}
+
+.SideBar-Block:hover .SideBar-Block-Title {
+    color: #666666;
+}
+
+.SideBar-Block-Icon {
+    box-sizing: border-box;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+   
+}
+
+.SideBar-Block-Title {
+    font-size: 10px;
+    text-align: center;
+    color: #999999;
+}
+
+.SideBar-Block-Text {
+    position: relative;
+}
+
+.SideBar-Block.isActive .SideBar-Block-Title {
+    color: #333333;
+}
+
+.SideBar-Block.isActive .SideBar-Block-Text::after {
+    content: '';
+    position: absolute;
+    left: -3px;
+    top: 1px;
+    background: #34d634;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
